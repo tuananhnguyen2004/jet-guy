@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999015566381",
+    "project_id": "jet-guy",
+    "storage_bucket": "jet-guy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999015566381:android:2a22d90af94dd24fa33ca4",
+        "android_client_info": {
+          "package_name": "com.seuit.jetguy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANcY7rW0NmRpTdPCu8_mj2s8aYQ5NZvSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
