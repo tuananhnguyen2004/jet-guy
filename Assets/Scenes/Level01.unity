@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1380,7 +1379,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.674708, y: -1.60332, z: -10}
+  m_LocalPosition: {x: -1.2352343, y: -1.6046, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35504,7 +35503,7 @@ Transform:
   m_GameObject: {fileID: 851749641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1942368, y: -3.5348003, z: -10}
+  m_LocalPosition: {x: -4.0420322, y: -3.5348003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35526,6 +35525,7 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1480301947}
   m_Damping: 0.5
   m_MaxWindowSize: -1
+  m_Padding: 0
 --- !u!4 &853741559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4887293667391826, guid: 20b4923008369ef4883c3ccd4a040d1e, type: 3}
@@ -66461,6 +66461,18 @@ PrefabInstance:
       propertyPath: changeSceneAnim
       value: 
       objectReference: {fileID: 1881008559}
+    - target: {fileID: 4209069865390718523, guid: 375575843e4b7cb49823ccc39af1ac8e, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209069865390718523, guid: 375575843e4b7cb49823ccc39af1ac8e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+    - target: {fileID: 4209069865390718523, guid: 375575843e4b7cb49823ccc39af1ac8e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6232997450881519524, guid: 375575843e4b7cb49823ccc39af1ac8e, type: 3}
       propertyPath: m_Name
       value: Black Hole
